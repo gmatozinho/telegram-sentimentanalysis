@@ -1,0 +1,19 @@
+{
+  "name": "telegram-sentimentanalysis",
+  "version": "1.0.0",
+  "description": "This project contains a sentiment analysis experiment using my telegram chats with my friends",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmatozinho/telegram-sentimentanalysis.git"
+  },
+  "author": "Gustavo Matozinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmatozinho/telegram-sentimentanalysis/issues"
+  },
+  "homepage": "https://github.com/gmatozinho/telegram-sentimentanalysis#readme"
+}
