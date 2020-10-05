@@ -4,6 +4,7 @@
   "description": "This project contains a sentiment analysis experiment using my telegram chats with my friends",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --inspect -r dotenv-flow/config index.js dotenv_config_path=.env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/gmatozinho/telegram-sentimentanalysis/issues"
   },
-  "homepage": "https://github.com/gmatozinho/telegram-sentimentanalysis#readme"
+  "homepage": "https://github.com/gmatozinho/telegram-sentimentanalysis#readme",
+  "dependencies": {
+    "prompt": "^1.0.0",
+    "telegram-mtproto": "^2.2.2"
+  },
+  "devDependencies": {
+    "dotenv-flow": "^3.2.0",
+    "nodemon": "^2.0.4"
+  }
 }
